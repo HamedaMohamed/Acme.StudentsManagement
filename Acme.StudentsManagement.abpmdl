@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Acme.StudentsManagement.Application": {
+      "path": "src/Acme.StudentsManagement.Application/Acme.StudentsManagement.Application.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.Application.Tests": {
+      "path": "test/Acme.StudentsManagement.Application.Tests/Acme.StudentsManagement.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.StudentsManagement.Domain.Shared": {
+      "path": "src/Acme.StudentsManagement.Domain.Shared/Acme.StudentsManagement.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.Application.Contracts": {
+      "path": "src/Acme.StudentsManagement.Application.Contracts/Acme.StudentsManagement.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.HttpApi": {
+      "path": "src/Acme.StudentsManagement.HttpApi/Acme.StudentsManagement.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.HttpApi.Client": {
+      "path": "src/Acme.StudentsManagement.HttpApi.Client/Acme.StudentsManagement.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.EntityFrameworkCore.Tests": {
+      "path": "test/Acme.StudentsManagement.EntityFrameworkCore.Tests/Acme.StudentsManagement.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.StudentsManagement.EntityFrameworkCore": {
+      "path": "src/Acme.StudentsManagement.EntityFrameworkCore/Acme.StudentsManagement.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.TestBase": {
+      "path": "test/Acme.StudentsManagement.TestBase/Acme.StudentsManagement.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Acme.StudentsManagement.Domain.Tests": {
+      "path": "test/Acme.StudentsManagement.Domain.Tests/Acme.StudentsManagement.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.StudentsManagement.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Acme.StudentsManagement.HttpApi.Client.ConsoleTestApp/Acme.StudentsManagement.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Acme.StudentsManagement.DbMigrator": {
+      "path": "src/Acme.StudentsManagement.DbMigrator/Acme.StudentsManagement.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.HttpApi.Host": {
+      "path": "src/Acme.StudentsManagement.HttpApi.Host/Acme.StudentsManagement.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Acme.StudentsManagement.Domain": {
+      "path": "src/Acme.StudentsManagement.Domain/Acme.StudentsManagement.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

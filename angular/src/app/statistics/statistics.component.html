@@ -1,0 +1,25 @@
+
+<div *ngIf="statistics" class="card">
+  <div class="card-header">
+    <h2>Statistics</h2>
+  </div>
+  <div class="card-body">
+    <p>Total Students: {{ statistics.totalStudents }}</p>
+    <p>Average Age: {{ statistics.averageAge.toFixed(2) }}</p>
+    <h3>Grade Distribution</h3>
+    <abp-chart type="bar" [data]="barchartData" width="100%" height="400px"></abp-chart>
+  </div>
+
+
+</div>
+<div *ngIf="statistics" class="card">
+  <div class="card-header">
+    <h2>Statistics</h2>
+  </div>
+  <div class="card-body">
+    <p>Total Students: {{ statistics.totalStudents }}</p>
+    <p>Average Age: {{ statistics.averageAge.toFixed(2) }}</p>
+    <h3>Grade Distribution</h3>
+    <abp-chart type="pie" [data]="chartData" width="100%" height="400px"></abp-chart>
+  </div>
+</div>
